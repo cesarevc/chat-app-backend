@@ -25,7 +25,7 @@ io.on('connect', (socket) => {
 
     // initial messages
     // welcome message exclusive to new user
-    socket.emit('message', { user: 'admin', text: `${user.name}, welcome to room ${user.room}.`});
+    socket.emit('message', { user: 'Admin', text: `${user.name}, welcome to room ${user.room}.`});
     // message to their other members into room except new user
     socket.broadcast.to(user.room).emit('message', { user: 'Admin', text: `${user.name} has joined!` });
 
