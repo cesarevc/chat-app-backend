@@ -1,6 +1,6 @@
 # CHAT APPLICATION
 
-_This practice is a backend for a chat app using Node and Socket.io_
+_This is practice for a chat app backend using Node and Socket.io_
 
 
 ## Built with 🛠️
